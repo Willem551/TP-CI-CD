@@ -1,0 +1,238 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.2.0
+2 info using node@v18.19.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 4ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 7ms
+6 timing config:load:builtin Completed in 9ms
+7 timing config:load:cli Completed in 7ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:/home/ls/react-docker-app/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 6ms
+11 timing config:load:file:/home/ls/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 2ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 34ms
+17 timing npm:load:configload Completed in 34ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm install @testing-library/dom@^10.4.0 @testing-library/jest-dom@^6.6.3 @testing-library/react@^16.1.0 @testing-library/user-event@^13.2.1 web-vitals@^2.1.0
+21 verbose argv "install" "--no-audit" "--save" "@testing-library/dom@^10.4.0" "@testing-library/jest-dom@^6.6.3" "@testing-library/react@^16.1.0" "@testing-library/user-event@^13.2.1" "web-vitals@^2.1.0"
+22 timing npm:load:setTitle Completed in 9ms
+23 timing config:load:flatten Completed in 8ms
+24 timing npm:load:display Completed in 12ms
+25 verbose logfile logs-max:10 dir:/home/ls/.npm/_logs/2025-06-21T14_47_04_481Z-
+26 verbose logfile /home/ls/.npm/_logs/2025-06-21T14_47_04_481Z-debug-0.log
+27 timing npm:load:logFile Completed in 19ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 78ms
+31 silly logfile done cleaning log files
+32 timing config:load:flatten Completed in 2ms
+33 timing arborist:ctor Completed in 2ms
+34 timing idealTree:init Completed in 3557ms
+35 timing idealTree:userRequests Completed in 14ms
+36 silly idealTree buildDeps
+37 silly fetch manifest @testing-library/dom@^10.4.0
+38 timing arborist:ctor Completed in 0ms
+39 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fdom 3859ms (cache miss)
+40 silly fetch manifest @testing-library/jest-dom@^6.6.3
+41 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fjest-dom 127ms (cache miss)
+42 silly fetch manifest @testing-library/react@^16.1.0
+43 http fetch GET 200 https://registry.npmjs.org/@testing-library%2freact 125ms (cache miss)
+44 silly fetch manifest @types/react@^18.0.0 || ^19.0.0
+45 http fetch GET 200 https://registry.npmjs.org/@types%2freact 99ms (cache miss)
+46 silly fetch manifest @types/react-dom@^18.0.0 || ^19.0.0
+47 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 76ms (cache miss)
+48 silly fetch manifest react@^19.1.0
+49 http fetch GET 200 https://registry.npmjs.org/react 50ms (cache hit)
+50 silly fetch manifest react-dom@^19.1.0
+51 http fetch GET 200 https://registry.npmjs.org/react-dom 122ms (cache hit)
+52 silly fetch manifest @testing-library/user-event@^13.2.1
+53 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fuser-event 210ms (cache miss)
+54 silly fetch manifest web-vitals@^2.1.0
+55 http fetch GET 200 https://registry.npmjs.org/web-vitals 116ms (cache miss)
+56 silly placeDep ROOT @testing-library/dom@10.4.0 OK for: react-docker-app@0.1.0 want: ^10.4.0
+57 silly placeDep ROOT @testing-library/jest-dom@6.6.3 OK for: react-docker-app@0.1.0 want: ^6.6.3
+58 silly placeDep ROOT @testing-library/react@16.3.0 OK for: react-docker-app@0.1.0 want: ^16.1.0
+59 silly placeDep ROOT @testing-library/user-event@13.5.0 OK for: react-docker-app@0.1.0 want: ^13.2.1
+60 silly placeDep ROOT web-vitals@2.1.4 OK for: react-docker-app@0.1.0 want: ^2.1.0
+61 silly fetch manifest lz-string@^1.5.0
+62 silly fetch manifest aria-query@5.3.0
+63 silly fetch manifest @types/aria-query@^5.0.1
+64 silly fetch manifest dom-accessibility-api@^0.5.9
+65 silly fetch manifest @adobe/css-tools@^4.4.0
+66 silly fetch manifest chalk@^3.0.0
+67 silly fetch manifest css.escape@^1.5.1
+68 silly fetch manifest dom-accessibility-api@^0.6.3
+69 silly fetch manifest redent@^3.0.0
+70 http fetch GET 200 https://registry.npmjs.org/lz-string 139ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/aria-query 141ms (cache hit)
+72 http fetch GET 200 https://registry.npmjs.org/chalk 135ms (cache hit)
+73 http fetch GET 200 https://registry.npmjs.org/css.escape 198ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api 232ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/redent 235ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api 265ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/@adobe%2fcss-tools 281ms (cache miss)
+78 http fetch GET 200 https://registry.npmjs.org/@types%2faria-query 289ms (cache miss)
+79 timing idealTree:#root Completed in 5396ms
+80 silly placeDep ROOT @types/aria-query@5.0.4 OK for: @testing-library/dom@10.4.0 want: ^5.0.1
+81 silly placeDep node_modules/@testing-library/dom aria-query@5.3.0 OK for: @testing-library/dom@10.4.0 want: 5.3.0
+82 silly placeDep ROOT dom-accessibility-api@0.5.16 OK for: @testing-library/dom@10.4.0 want: ^0.5.9
+83 silly placeDep ROOT lz-string@1.5.0 OK for: @testing-library/dom@10.4.0 want: ^1.5.0
+84 silly fetch manifest dequal@^2.0.3
+85 http fetch GET 200 https://registry.npmjs.org/dequal 95ms (cache miss)
+86 timing idealTree:node_modules/@testing-library/dom Completed in 126ms
+87 silly placeDep ROOT @adobe/css-tools@4.4.3 OK for: @testing-library/jest-dom@6.6.3 want: ^4.4.0
+88 silly placeDep node_modules/@testing-library/jest-dom chalk@3.0.0 OK for: @testing-library/jest-dom@6.6.3 want: ^3.0.0
+89 silly placeDep ROOT css.escape@1.5.1 OK for: @testing-library/jest-dom@6.6.3 want: ^1.5.1
+90 silly placeDep node_modules/@testing-library/jest-dom dom-accessibility-api@0.6.3 OK for: @testing-library/jest-dom@6.6.3 want: ^0.6.3
+91 silly placeDep ROOT redent@3.0.0 OK for: @testing-library/jest-dom@6.6.3 want: ^3.0.0
+92 silly fetch manifest indent-string@^4.0.0
+93 silly fetch manifest strip-indent@^3.0.0
+94 http fetch GET 200 https://registry.npmjs.org/strip-indent 74ms (cache miss)
+95 http fetch GET 200 https://registry.npmjs.org/indent-string 79ms (cache miss)
+96 timing idealTree:node_modules/@testing-library/jest-dom Completed in 108ms
+97 timing idealTree:node_modules/@adobe/css-tools Completed in 0ms
+98 timing idealTree:node_modules/@testing-library/react Completed in 0ms
+99 timing idealTree:node_modules/@testing-library/user-event Completed in 0ms
+100 timing idealTree:node_modules/@types/aria-query Completed in 0ms
+101 timing idealTree:node_modules/css.escape Completed in 1ms
+102 timing idealTree:node_modules/dom-accessibility-api Completed in 1ms
+103 timing idealTree:node_modules/lz-string Completed in 0ms
+104 silly fetch manifest typescript@^3.2.1 || ^4
+105 http fetch GET 200 https://registry.npmjs.org/typescript 57ms (cache hit)
+106 silly placeDep ROOT typescript@4.9.5 REPLACE for: react-scripts@5.0.1 want: ^3.2.1 || ^4
+107 timing idealTree:node_modules/react-scripts Completed in 475ms
+108 silly placeDep ROOT indent-string@4.0.0 OK for: redent@3.0.0 want: ^4.0.0
+109 silly placeDep ROOT strip-indent@3.0.0 OK for: redent@3.0.0 want: ^3.0.0
+110 silly fetch manifest min-indent@^1.0.0
+111 http fetch GET 200 https://registry.npmjs.org/min-indent 89ms (cache miss)
+112 timing idealTree:node_modules/redent Completed in 100ms
+113 timing idealTree:node_modules/indent-string Completed in 1ms
+114 silly placeDep ROOT min-indent@1.0.1 OK for: strip-indent@3.0.0 want: ^1.0.0
+115 timing idealTree:node_modules/strip-indent Completed in 6ms
+116 timing idealTree:node_modules/min-indent Completed in 0ms
+117 timing idealTree:node_modules/typescript Completed in 0ms
+118 timing idealTree:node_modules/web-vitals Completed in 0ms
+119 silly placeDep ROOT dequal@2.0.3 OK for: aria-query@5.3.0 want: ^2.0.3
+120 timing idealTree:node_modules/@testing-library/dom/node_modules/aria-query Completed in 4ms
+121 timing idealTree:node_modules/dequal Completed in 0ms
+122 timing idealTree:node_modules/@testing-library/jest-dom/node_modules/chalk Completed in 0ms
+123 timing idealTree:node_modules/@testing-library/jest-dom/node_modules/dom-accessibility-api Completed in 0ms
+124 timing idealTree:buildDeps Completed in 6228ms
+125 timing idealTree:fixDepFlags Completed in 53ms
+126 timing idealTree Completed in 9888ms
+127 timing reify:loadTrees Completed in 9892ms
+128 timing reify:diffTrees Completed in 78ms
+129 silly reify mark retired [
+129 silly reify   '/home/ls/react-docker-app/node_modules/typescript',
+129 silly reify   '/home/ls/react-docker-app/node_modules/.bin/tsc',
+129 silly reify   '/home/ls/react-docker-app/node_modules/.bin/tsserver'
+129 silly reify ]
+130 silly reify moves {
+130 silly reify   '/home/ls/react-docker-app/node_modules/typescript': '/home/ls/react-docker-app/node_modules/.typescript-fDqR70U0',
+130 silly reify   '/home/ls/react-docker-app/node_modules/.bin/tsc': '/home/ls/react-docker-app/node_modules/.bin/.tsc-ZTVvAjBE',
+130 silly reify   '/home/ls/react-docker-app/node_modules/.bin/tsserver': '/home/ls/react-docker-app/node_modules/.bin/.tsserver-O5RL8v0O'
+130 silly reify }
+131 timing reify:retireShallow Completed in 17ms
+132 timing reify:createSparse Completed in 23ms
+133 timing reify:loadBundles Completed in 0ms
+134 verbose reify failed optional dependency /home/ls/react-docker-app/node_modules/fsevents
+135 silly reify mark deleted [ '/home/ls/react-docker-app/node_modules/fsevents' ]
+136 timing reifyNode:node_modules/fsevents Completed in 22ms
+137 silly tarball no local data for dequal@https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz. Extracting by manifest.
+138 silly tarball no local data for min-indent@https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz. Extracting by manifest.
+139 silly tarball no local data for strip-indent@https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz. Extracting by manifest.
+140 silly tarball no local data for indent-string@https://registry.npmjs.org/indent-string/-/indent-string-4.0.0.tgz. Extracting by manifest.
+141 silly tarball no local data for redent@https://registry.npmjs.org/redent/-/redent-3.0.0.tgz. Extracting by manifest.
+142 silly tarball no local data for @adobe/css-tools@https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.4.3.tgz. Extracting by manifest.
+143 silly tarball no local data for css.escape@https://registry.npmjs.org/css.escape/-/css.escape-1.5.1.tgz. Extracting by manifest.
+144 silly tarball no local data for lz-string@https://registry.npmjs.org/lz-string/-/lz-string-1.5.0.tgz. Extracting by manifest.
+145 silly tarball no local data for dom-accessibility-api@https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.5.16.tgz. Extracting by manifest.
+146 silly tarball no local data for @types/aria-query@https://registry.npmjs.org/@types/aria-query/-/aria-query-5.0.4.tgz. Extracting by manifest.
+147 silly tarball no local data for web-vitals@https://registry.npmjs.org/web-vitals/-/web-vitals-2.1.4.tgz. Extracting by manifest.
+148 silly tarball no local data for @testing-library/user-event@https://registry.npmjs.org/@testing-library/user-event/-/user-event-13.5.0.tgz. Extracting by manifest.
+149 silly tarball no local data for @testing-library/react@https://registry.npmjs.org/@testing-library/react/-/react-16.3.0.tgz. Extracting by manifest.
+150 silly tarball no local data for @testing-library/jest-dom@https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-6.6.3.tgz. Extracting by manifest.
+151 silly tarball no local data for @testing-library/dom@https://registry.npmjs.org/@testing-library/dom/-/dom-10.4.0.tgz. Extracting by manifest.
+152 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz. Extracting by manifest.
+153 silly tarball no local data for dom-accessibility-api@https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.6.3.tgz. Extracting by manifest.
+154 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-3.0.0.tgz. Extracting by manifest.
+155 silly tarball no local data for aria-query@https://registry.npmjs.org/aria-query/-/aria-query-5.3.0.tgz. Extracting by manifest.
+156 http fetch GET 200 https://registry.npmjs.org/css.escape/-/css.escape-1.5.1.tgz 1037ms (cache miss)
+157 timing reifyNode:node_modules/css.escape Completed in 1149ms
+158 http fetch GET 200 https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz 1074ms (cache miss)
+159 timing reifyNode:node_modules/strip-indent Completed in 1153ms
+160 http fetch GET 200 https://registry.npmjs.org/indent-string/-/indent-string-4.0.0.tgz 1070ms (cache miss)
+161 timing reifyNode:node_modules/indent-string Completed in 1155ms
+162 http fetch GET 200 https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz 1082ms (cache miss)
+163 timing reifyNode:node_modules/min-indent Completed in 1158ms
+164 http fetch GET 200 https://registry.npmjs.org/redent/-/redent-3.0.0.tgz 1146ms (cache miss)
+165 timing reifyNode:node_modules/redent Completed in 1239ms
+166 http fetch GET 200 https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz 1210ms (cache miss)
+167 http fetch GET 200 https://registry.npmjs.org/@types/aria-query/-/aria-query-5.0.4.tgz 1150ms (cache miss)
+168 timing reifyNode:node_modules/@types/aria-query Completed in 1285ms
+169 timing reifyNode:node_modules/dequal Completed in 1303ms
+170 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-3.0.0.tgz 1160ms (cache miss)
+171 timing reifyNode:node_modules/@testing-library/jest-dom/node_modules/chalk Completed in 1382ms
+172 http fetch GET 200 https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.4.3.tgz 1384ms (cache miss)
+173 timing reifyNode:node_modules/@adobe/css-tools Completed in 1511ms
+174 http fetch GET 200 https://registry.npmjs.org/lz-string/-/lz-string-1.5.0.tgz 1632ms (cache miss)
+175 timing reifyNode:node_modules/lz-string Completed in 1746ms
+176 http fetch GET 200 https://registry.npmjs.org/@testing-library/react/-/react-16.3.0.tgz 1750ms (cache miss)
+177 timing reifyNode:node_modules/@testing-library/react Completed in 1893ms
+178 http fetch GET 200 https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-6.6.3.tgz 1779ms (cache miss)
+179 timing reifyNode:node_modules/@testing-library/jest-dom Completed in 1963ms
+180 http fetch GET 200 https://registry.npmjs.org/web-vitals/-/web-vitals-2.1.4.tgz 1973ms (cache miss)
+181 timing reifyNode:node_modules/web-vitals Completed in 2113ms
+182 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.6.3.tgz 1904ms (cache miss)
+183 timing reifyNode:node_modules/@testing-library/jest-dom/node_modules/dom-accessibility-api Completed in 2144ms
+184 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.5.16.tgz 2024ms (cache miss)
+185 timing reifyNode:node_modules/dom-accessibility-api Completed in 2162ms
+186 http fetch GET 200 https://registry.npmjs.org/@testing-library/user-event/-/user-event-13.5.0.tgz 2162ms (cache miss)
+187 timing reifyNode:node_modules/@testing-library/user-event Completed in 2304ms
+188 http fetch GET 200 https://registry.npmjs.org/aria-query/-/aria-query-5.3.0.tgz 2158ms (cache miss)
+189 timing reifyNode:node_modules/@testing-library/dom/node_modules/aria-query Completed in 2384ms
+190 http fetch GET 200 https://registry.npmjs.org/@testing-library/dom/-/dom-10.4.0.tgz 2237ms (cache miss)
+191 timing reifyNode:node_modules/@testing-library/dom Completed in 2446ms
+192 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz 5200ms (cache miss)
+193 timing reifyNode:node_modules/typescript Completed in 5417ms
+194 timing reify:unpack Completed in 5425ms
+195 timing reify:unretire Completed in 0ms
+196 timing build:queue Completed in 5ms
+197 timing build:link:node_modules/lz-string Completed in 32ms
+198 timing build:link:node_modules/typescript Completed in 27ms
+199 timing build:link Completed in 32ms
+200 timing build:deps Completed in 39ms
+201 timing build Completed in 40ms
+202 timing reify:build Completed in 43ms
+203 timing reify:trash Completed in 58ms
+204 timing reify:save Completed in 1259ms
+205 timing reify Completed in 17405ms
+206 silly ADD node_modules/dequal
+207 silly ADD node_modules/min-indent
+208 silly ADD node_modules/strip-indent
+209 silly ADD node_modules/indent-string
+210 silly ADD node_modules/redent
+211 silly ADD node_modules/css.escape
+212 silly ADD node_modules/@adobe/css-tools
+213 silly ADD node_modules/lz-string
+214 silly ADD node_modules/dom-accessibility-api
+215 silly ADD node_modules/@types/aria-query
+216 silly ADD node_modules/web-vitals
+217 silly ADD node_modules/@testing-library/user-event
+218 silly ADD node_modules/@testing-library/react
+219 silly ADD node_modules/@testing-library/jest-dom
+220 silly ADD node_modules/@testing-library/jest-dom/node_modules/dom-accessibility-api
+221 silly ADD node_modules/@testing-library/jest-dom/node_modules/chalk
+222 silly ADD node_modules/@testing-library/dom
+223 silly ADD node_modules/@testing-library/dom/node_modules/aria-query
+224 silly ADD
+225 silly CHANGE node_modules/typescript
+226 timing command:install Completed in 17439ms
+227 verbose exit 0
+228 timing npm Completed in 17559ms
+229 info ok

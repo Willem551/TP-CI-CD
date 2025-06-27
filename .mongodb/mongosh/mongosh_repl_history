@@ -1,0 +1,12 @@
+print("Path to dataset files:", path)
+path = kagglehub.dataset_download("abcsds/pokemongo")
+# Download latest version
+import kagglehub
+mongoimport --db PokemonDB --collection Pokemons --type csv --headerline --file pokemonGO.csv
+db.createCollection("Pokemons")  // Crée une collection vide
+use PokemonDB   // Crée et utilise la base de données
+Using MongoDB:          8.0.10
+test> mongoimport --db PokemonDB --collection Pokemons --type csv --headerline --file pokemonGO.csv
+  2 |
+    |               ^
+mongoimport --db PokemonDB --collection Pokemons --type csv --headerline --file pokemonGO.csv
